@@ -513,14 +513,14 @@ font-weight: bolder;
         width: 100%;
         font-size: 0px;
         color: white;
-        margin-top: -112px;
+        margin-top: -145px;
     }
     #hiking{
         text-align: center;
         
     }
     #hiking img{
-        width: 40%;
+        width: 30%;
     
     }
     #hiking h2{
@@ -570,7 +570,7 @@ font-weight: bolder;
         font-size: 40px;
     }
     #reasons .card{
-    padding: 80px;
+    padding: 20px 80px;
     }
     #reasons .card img{
         width: 100%;
