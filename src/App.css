@@ -1,38 +1,607 @@
-.App {
-  text-align: center;
+*{
+    font-family: 'Poppins', sans-serif;
+}
+#header{
+   
+}
+#header ul{
+    margin-left: 50px;
+    margin-top: 30px;
+}
+#header ul li a{
+    font-size: 20px;
+    color: white;
+    margin: 0px;
+}
+#header ul li a i{
+    font-size: 13px;
+}
+#header a{
+    margin-top: 30px;
+   
+    max-width: 100%;
+    position: relative;
+    z-index: 999;
+    padding-right: 15px;
+}
+#header ul li a:hover{
+
+    border-bottom: 2px solid #FF5301;
+    color: #FF5301;
+
+}
+#header .dropdown-menu{
+    padding: 0px;
+}
+#header  .dropdown-item{
+   
+    background-color:rgb(43, 42, 42);
+    color: white;
+}
+#header  .dropdown-item:hover{
+    background-color: #FF5301;
+    color: white;
+}
+.icons{
+    position: absolute;
+    right: 20px;
+    margin-top: 30px;
+    z-index: 400;
+}
+.icons i{
+    font-size: 30px;
+   color: white;
+   margin-left: 20px;
+}
+.icons i:hover{
+    color: #FF5301;
+}
+#home{
+    z-index: -1;
+    position: absolute;
+    top: 0px;
+}
+#home #home-slider {
+    position: absolute;
+    top: 250px;   
+    text-align: start;
+}
+#home h2{
+    font-size: 30px;
+    font-weight:bold;
+  
+}
+#home h1{
+    font-size: 50px;
+   
+    font-weight: 600;
+}
+#home p{
+    font-size: 18px;
+  
+    font-weight: 500;
+    width: 40%;
+}
+ .btn{
+    margin-top: 20px;
+    font-size: 22px;
+    padding: 10px 40px;
+    border: none;
+    background-color: white;
+    color: black;
+}
+ .btn:hover{
+    background-color: #FF5301;
+    color: white;
+}
+.home-bottom{
+    z-index:9;
+    margin-top: 560px;
+}
+.home-bottom img{
+    box-sizing: border-box;
+   transform: rotate(180deg);
+    width: 100%;
+    font-size: 80px;
+    color: white;
+}
+#hiking{
+    background-color: #F8F8F8;
+    margin-top: -50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#hiking .col-md-2 .shadow img{
+    height: auto;
+    max-width: 100%;
+    border: none;
+}
+#hiking .col-md-2 .shadow{
+    border-radius: 4px;
+    width: 100%;
+}
+#hiking .col-md-2 .shadow h2{
+padding-top: 10px;
+  font-size: 18px;
+}
+#hiking .col-md-2 .shadow:hover{
+   background-color: #FF5301;
+   color: white;
+}
+#weclome{
+    color: black;
+
+}
+#welcome h3{
+    font-size: 35px;
+    color: black;
+    font-weight: bold;
+    margin-top: 95px;
+
+}
+#welcome h1{
+    font-size: 70px;
+    font-weight: bolder;
+ 
+}
+#welcome h2{
+    font-size: 50px;
+    font-weight: bold;
+}
+#welcome p{
+  margin-top: 20px;
+}
+#welcome #circle{
+    border: 2px solid #FF5301;
+    background-color: #FF5301;
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+    margin: 0px auto;
+    padding: 30px 10px;
+}
+#welcome #circle h2{
+    margin: 0px;
+}
+#welcome .btn{
+    margin-top: 50px;
+   background-color: #FF5301;
+   color: white;
+}
+#welcome .btn:hover{
+    background-color: black;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#activities{
+    margin-top: 80px;
+    background-color: #F8F8F8;
+    padding: 50px 0px;
+    padding-bottom: 150px;
+    color: black;
+}
+#activities h3{
+    font-size: 35px;
+    font-weight: bold;
+   
+}
+#activities h1{
+    font-size: 60px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+#activities .btn{
+    padding:20px 20px;
+font-size: 25px;
+}
+#activities h4{
+    z-index: 1;
+    font-size: 40px;
+    text-align: center;
+  margin-top:-80px;
+  font-family: 'Teko';
+  color: white;  
+  background-color: #02000040; 
+   
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+#extreme{
+    margin-top: -150px;
+    background: url(/public/extreme-sport-bg.jpg);
+  
+    background-attachment: fixed;
+    color: white;
+    
+}
+#extreme .container-fluid{
+  
+    padding: 200px 0px;
+   
+    background-color: #ff5301a8;
+}
+#extreme h1{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 90px;
+}
+#extreme h2{
+    font-size: 40px;
+    margin: 0px 250px;
+    line-height: 1.4;
+}
+#extreme .btn{
+    padding: 20px 30px;
+    font-size: 25px;
+    
+}
+#extreme .btn:hover{
+    background-color: black;
+    color: white;
+}
+#reasons{
+    padding-top: 100px;
+    color: black;
+    background-color: #F8F8F8;
+}
+#reasons h1{
+    font-size: 70px;
+    font-weight: bolder;
+}
+#reasons .card{
+    width: 100%;
+    border: none;
+    background-color: #F8F8F8;
+}
+#reasons .card img{
+    background-color: white;
+    border-radius: 50%;
+    width: 100%;
+    padding: 50px;
+}
+#reasons .card img:hover{
+    background-color: #FF5301;
+    color: white;
+   
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#feedback{
+    margin-top: 100px;
+    color: black;
+}
+#feedback h3{
+    font-size: 25px;
+}
+#feedback h1{
+    font-size: 70px;
+    font-weight: bolder;
+}
+#feedback .col-6{
+    margin-left: 20px;
+}
+#feedback .b{
+    margin-top: 100px;
+}
+#feedback .b img{
+    border-radius: 50%;
+    height: 80%;
+}
+#feedback .b h4{
+    margin-top: 10px;
+    font-size: 20px;
+}
+#feedback .shadow{
+    background-color: #F8F8F8;
 }
 
-.App-link {
-  color: #61dafb;
+
+#sports .king{
+  z-index: 99;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#blog{
+    margin-top: 100px;
+
+}
+#blog h1{
+    font-size: 60px;
+font-weight: bolder;
+}
+#blog h4{
+    text-align: start;
+    z-index: 999;
+  position: relative;
+   top: 65px;
+   margin-left: 20px;
+   background-color: #ffffff9e;
+   margin-right: 170px;
+   padding: 10px;
+}
+
+#climbing{
+ padding-top: 60px;    
+ color: black;
+ background-color: #F8F8F8;
+}
+#climbing p{
+    color: #FF5301;
+    font-size: 15px;
+}
+#climbing h2{
+    font-size: 22px;
+}
+#climbing h2:hover{
+    color: rgb(214, 37, 126);
+}
+#climbing #logo{
+    background-color: white;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+
+#footer{
+    background: url('/public/footer-bg.jpg')no-repeat center center/cover;
+    margin-top: -150px;
+    padding-top: 170px;
+    padding-bottom: 40px;
+    color: white;
+}
+#footer .col-lg-4 i{
+    color: black;
+    background-color: white;
+    border-radius: 50%;
+    font-size: 25px;
+    padding: 15px 20px;
+    margin-left: 10px;
+}
+#footer i:hover{
+    color: #FF5301;
+}
+#footer ul li a{
+    color: white;
+    font-size: 15px;
+}
+#footer ul li a:hover{
+    color: #FF5301;
+}
+#footer h1{
+    margin-top: 50px;
+    font-size: 33px;
+    font-weight: bolder;
+    color: white;
+}
+@media(max-width:992px){
+    #header{
+        background-color: black;
+        z-index: 999;
+    }
+    #header a{
+        margin-top: 0px;
+        position: relative;
+        z-index:0;
+    }
+    #home{
+        z-index: -1;
+        position:absolute;
+        top:100px;
+    }
+    #home #home-slider {
+        top: 200px;   
+    }
+    .home-bottom {
+        z-index: 9;
+        margin-top: 506px;
+    }
+    #extreme h2 {
+        margin: 0px 150px;
+    }
+    #reasons .card h4{
+        font-size: 20px;
+    }
+    #feedback .col-6 {
+        margin-left: 0px;
+        margin: 0px;
+    }
+    #blog h4 {
+        margin-right: 30px;
+    }
+}
+@media(max-width:768px){
+    #home #home-slider {
+        top: 100px;   
+    }
+    .home-bottom {
+        z-index: 9;
+        margin-top: 424px;
+    }
+    
+    
+    #welcome #activity {
+        text-align: center;
+    }
+    #welcome #activity #circle{
+        margin: 10px 00px;
+    }
+    #activities{
+        text-align: center;
+    }
+    #activities h3,h1{
+        text-align: start;
+    }
+    #activities .card img{
+        margin-top: 30px;
+    }
+    #extreme{
+        margin-top: -110px;
+      
+        
+    }
+    #extreme h1{
+        text-align: center;
+     font-size: 60px;    
+    }
+    #extreme h2{
+        font-size: 35px;
+        margin: 0px;
+    }
+    #extreme .btn{
+        margin-top: 30px;
+    }
+    #reasons h2{
+        text-align: start;
+    }
+    #reasons h1{
+        font-size: 60px;
+    }
+    #sports{
+        margin-top: 80px;
+    }
+    #blog h4 {
+        margin-right: 30px;
+        width: 33%;
+    }
+    #climbing{
+        padding-bottom: 70px;
+    }
+    #footer{
+     
+        margin-top: -110px;
+        padding-top: 130px;
+        
+    }
+    #footer .col-lg-4 i{
+        margin-top: 30px;
+    }
+    footer{
+        text-align: center;
+    }
+
+}
+@media(max-width:576px){
+    #header img{
+        width: 70%;
+    }
+    #home{
+        z-index: -1;
+        position:absolute;
+        top:100px;
+    }
+    #home #home-slider {
+        top: 0px;   
+    }
+    #home h1{
+        font-size: 26px;
+    }
+    #home h2{
+        font-size: 20px;
+    }
+    #home p{
+        font-size: 15px;
+        margin-right: 0px;
+        width: 100%;
+    }
+    #home .btn{
+        margin-top: 10px;
+        font-size: 16px;
+        padding: 10px 30px;
+    }
+    .home-bottom {
+        margin-top: 277px;
+    }
+    .home-bottom img {
+        box-sizing: border-box;
+        transform: rotate(
+    180deg);
+        width: 100%;
+        font-size: 0px;
+        color: white;
+        margin-top: -112px;
+    }
+    #hiking{
+        text-align: center;
+        
+    }
+    #hiking img{
+        width: 40%;
+    
+    }
+    #hiking h2{
+        text-align: center;
+    }
+    #welcome h1{
+        font-size: 40px;
+    }
+    #welcome h3{
+        font-size: 22px;
+    }
+    #welcome h2{
+        font-size: 30px;
+    }
+    #welcome #activity{
+        display: none;
+    }
+    #activities h1{
+        font-size: 40px;
+    }
+    #activities h3{
+        font-size: 22px;
+    }
+    #activities .btn{
+        font-size: 18px;
+        padding: 10px 30px;
+    }
+    #extreme{
+        margin-top: -76px;
+       
+    }
+    #extreme h1{
+        font-size: 40px;
+    }
+    #extreme h2{
+        text-align: center;
+        font-size: 25px;
+    }
+    #extreme .btn{
+        font-size: 18px;
+        padding: 10px 30px;
+    }
+    #reasons{
+        text-align: center;
+    }
+    #reasons h1{
+        font-size: 40px;
+    }
+    #reasons .card{
+    padding: 80px;
+    }
+    #reasons .card img{
+        width: 100%;
+    }
+    #feedback{
+        margin-top: 0px;
+    }
+    #feedback h1{
+        font-size: 40px;
+    }
+    #feedback .ml-4{
+        margin-left: 10px;
+    }
+    #climbing{
+        text-align: center;
+    }
+    #climbing p,h2{
+        text-align: start;
+    }
+    #blog h1{
+        font-size: 40px;
+    }
+    #blog h4{
+        width: 60%;
+    }
+    #climbing img{
+        width: 60%;
+    }
+    #footer{
+        
+        margin-top: -50px;
+        padding-top: 130px;
+    }
 }
