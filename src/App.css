@@ -499,7 +499,7 @@ font-weight: bolder;
         width: 100%;
     }
     #home .btn{
-        margin-top: 10px;
+        margin-top: 0px;
         font-size: 16px;
         padding: 10px 30px;
     }
@@ -517,7 +517,7 @@ font-weight: bolder;
     }
     #hiking{
         text-align: center;
-        
+        margin-top: -75px;
     }
     #hiking img{
         width: 30%;
@@ -603,5 +603,12 @@ font-weight: bolder;
         
         margin-top: -50px;
         padding-top: 130px;
+    }
+    #footer img{
+        width: 120%;
+    }
+    #footer .col-lg-4 i{
+        font-size: 18px;
+        padding: 15px 18px;
     }
 }
