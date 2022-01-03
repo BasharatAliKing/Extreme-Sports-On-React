@@ -403,20 +403,29 @@ export default class App extends Component {
                     </div>
                 </section>
 
-                <section id="sports ">
-                    <div className="container-fluid">
+                <section className="sports ">
+                    <div className="container-fluid mt-5">
                         <div className="row">
                             <div className="col-md-4 p-0">
                                 <img src={process.env.PUBLIC_URL + "/sport-step1.jpg"} alt="My-Pic" width="100%" />
-
+                                     <div className="king">
+                                         <h3>Sports Videos</h3>
+                                         <p>Get Inspired</p>
+                                     </div>
                             </div>
                             <div className="col-md-4 p-0">
                                 <img src={process.env.PUBLIC_URL + "/sport-step2.jpg"} alt="My-Pic" width="100%" />
-
+                                <div className="king">
+                                         <h3>Club Activities</h3>
+                                         <p>View All Sports</p>
+                                     </div>
                             </div>
                             <div className="col-md-4 p-0">
                                 <img src={process.env.PUBLIC_URL + "/sport-step3.jpg"} alt="My-Pic" width="100%" />
-
+                                <div className="king">
+                                         <h3>Our Team</h3>
+                                         <p>Instructors</p>
+                                     </div>
                             </div>
                         </div>
                     </div>

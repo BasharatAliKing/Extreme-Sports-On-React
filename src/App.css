@@ -292,9 +292,16 @@ font-size: 25px;
     background-color: #F8F8F8;
 }
 
-
-#sports .king{
-  z-index: 99;
+.sports{
+    margin-top: 30px;
+    text-align: center;
+}
+.sports .king{
+   position: relative;
+   z-index: 99;
+   bottom: 90px;
+   color: white;
+   background-color: #00000057;
 }
 
 #blog{
