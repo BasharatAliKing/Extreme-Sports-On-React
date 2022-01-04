@@ -299,6 +299,26 @@ font-size: 25px;
 #feedback .ml-4{
     margin-left: 15px;
 }
+#feedback .carousel-indicators {
+    position: absolute;
+    right: 0;
+    bottom: -35px;
+    left: 0;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+   
+    margin-right: 15%;
+    margin-bottom: 1rem;
+    margin-left: 15%;
+    list-style: none;
+  
+   
+}
+#feedback button{
+    background-color: #FF5301;
+}
 .sports{
     margin-top: 30px;
     text-align: center;
@@ -626,6 +646,26 @@ font-weight: bolder;
     }
     #feedback .ml-4{
         margin-left: 20px;
+    }
+    #feedback .carousel-indicators {
+        position: absolute;
+        right: 0;
+        bottom: -35px;
+        left: 0;
+        z-index: 2;
+        display: flex;
+        justify-content: center;
+        padding: 0;
+       
+        margin-right: 15%;
+        margin-bottom: 1rem;
+        margin-left: 15%;
+        list-style: none;
+      
+       
+    }
+    #feedback button{
+        background-color: #FF5301;
     }
     #climbing{
         text-align: center;
