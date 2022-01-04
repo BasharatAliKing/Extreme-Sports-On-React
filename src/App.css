@@ -541,7 +541,7 @@ font-weight: bolder;
     .carousel-indicators {
         position: absolute;
         right: 0;
-        bottom: -15px;
+        bottom: -10px;
         left: 0;
         z-index: 2;
         display: flex;
