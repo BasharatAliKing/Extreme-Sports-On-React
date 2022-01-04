@@ -204,6 +204,10 @@ font-size: 25px;
   background-color: #02000040; 
    
 }
+#activities .card{
+    background-color: #F8F8F8;
+    border: none;
+}
 
 
 #extreme{
@@ -514,6 +518,22 @@ font-weight: bolder;
         font-size: 16px;
         padding: 10px 30px;
     }
+    .carousel-indicators {
+        position: absolute;
+        right: 0;
+        bottom: -15px;
+        left: 0;
+        z-index: 2;
+        display: flex;
+        justify-content: center;
+        padding: 0;
+       
+        margin-right: 15%;
+        margin-bottom: 1rem;
+        margin-left: 15%;
+        list-style: none;
+       
+    }
     .home-bottom {
         margin-top: 277px;
     }
@@ -526,6 +546,7 @@ font-weight: bolder;
         color: white;
         margin-top: -145px;
     }
+
     #hiking{
         text-align: center;
         margin-top: -75px;
@@ -563,6 +584,10 @@ font-weight: bolder;
         padding: 10px 30px;
         text-align: start;
     }
+    #activities .card{
+        text-align: center;
+        margin-left: 20px;
+    }
     #extreme{
         margin-top: -76px;
        
@@ -587,6 +612,7 @@ font-weight: bolder;
     #reasons .card{
     padding: 20px 80px;
     }
+    #reasons
     #reasons .card img{
         width: 100%;
        
