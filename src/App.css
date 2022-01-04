@@ -113,21 +113,22 @@
 }
 #hiking .col-md-2 .shadow img{
     height: auto;
-    max-width: 100%;
+    max-width: 80%;
     border: none;
 }
-#hiking .col-md-2 .shadow{
+#hiking .col-lg-2 .shadow{
     border-radius: 4px;
     width: 100%;
 }
-#hiking .col-md-2 .shadow h2{
+#hiking .col-lg-2 .shadow h2{
 padding-top: 10px;
   font-size: 18px;
 }
-#hiking .col-md-2 .shadow:hover{
+#hiking .col-lg-2 .shadow:hover{
    background-color: #FF5301;
    color: white;
 }
+
 #weclome{
     color: black;
 
@@ -291,7 +292,9 @@ font-size: 25px;
 #feedback .shadow{
     background-color: #F8F8F8;
 }
-
+#feedback .ml-4{
+    margin-left: 15px;
+}
 .sports{
     margin-top: 30px;
     text-align: center;
@@ -504,9 +507,10 @@ font-weight: bolder;
         font-size: 15px;
         margin-right: 0px;
         width: 100%;
+        margin-top: -5px;
     }
     #home .btn{
-        margin-top: 0px;
+        margin-top: -10px;
         font-size: 16px;
         padding: 10px 30px;
     }
@@ -527,7 +531,7 @@ font-weight: bolder;
         margin-top: -75px;
     }
     #hiking img{
-        width: 30%;
+        width: 25%;
     
     }
     #hiking h2{
@@ -545,6 +549,9 @@ font-weight: bolder;
     #welcome #activity{
         display: none;
     }
+    #activities{
+        text-align: start;
+    }
     #activities h1{
         font-size: 40px;
     }
@@ -554,6 +561,7 @@ font-weight: bolder;
     #activities .btn{
         font-size: 18px;
         padding: 10px 30px;
+        text-align: start;
     }
     #extreme{
         margin-top: -76px;
@@ -581,7 +589,9 @@ font-weight: bolder;
     }
     #reasons .card img{
         width: 100%;
+       
     }
+  
     #feedback{
         margin-top: 0px;
     }
@@ -589,7 +599,7 @@ font-weight: bolder;
         font-size: 40px;
     }
     #feedback .ml-4{
-        margin-left: 10px;
+        margin-left: 20px;
     }
     #climbing{
         text-align: center;
@@ -604,7 +614,7 @@ font-weight: bolder;
         width: 60%;
     }
     #climbing img{
-        width: 60%;
+        width: 50%;
     }
     #footer{
         

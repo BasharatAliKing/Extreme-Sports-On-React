@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import { Carousel } from 'react-bootstrap';
+import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 
 export default class App extends Component {
@@ -81,52 +83,35 @@ export default class App extends Component {
                 </section>
 
                 <section id="home">
-                    <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
-                        <ol class="carousel-indicators">
-                            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-                            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-                            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-                        </ol>
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <img src={process.env.PUBLIC_URL + "/slider1.jpg"} class="d-block w-100" alt="..." />
+                 <Carousel>
+                        <Carousel.Item>
+                        <img src={process.env.PUBLIC_URL + "/slider1.jpg"} class="d-block w-100" alt="..." />
                                 <div id="home-slider" class="carousel-caption ">
                                     <h2>Extreme</h2>
                                     <h1>Board Suffering</h1>
                                     <p >Aendrerit eu ipsum. Nunc eleifend nulla tortoridie vehi</p>
                                     <button className='btn '>Read More</button>
                                 </div>
-                            </div>
-                            <div class="carousel-item">
-                                <img src={process.env.PUBLIC_URL + "/slider2.jpg"} class="d-block w-100" alt="..." />
+                        </Carousel.Item>
+                        <Carousel.Item>
+                        <img src={process.env.PUBLIC_URL + "/slider2.jpg"} class="d-block w-100" alt="..." />
                                 <div id="home-slider" class="carousel-caption ">
                                     <h2>Extreme</h2>
                                     <h1>Mountain Biking</h1>
-                                    <p>Aendrerit eu ipsum. Nunc eleifend nulla tortoridie vehi</p>
+                                    <p >Aendrerit eu ipsum. Nunc eleifend nulla tortoridie vehi</p>
                                     <button className='btn '>Read More</button>
-
                                 </div>
-                            </div>
-                            <div class="carousel-item">
-                                <img src={process.env.PUBLIC_URL + "/slider3.jpg"} class="d-block w-100" alt="..." />
-                                <div id="home-slider" class="carousel-caption">
+                        </Carousel.Item>
+                        <Carousel.Item>
+                        <img src={process.env.PUBLIC_URL + "/slider3.jpg"} class="d-block w-100" alt="..." />
+                                <div id="home-slider" class="carousel-caption ">
                                     <h2>Extreme</h2>
                                     <h1>Snow Sports</h1>
-                                    <p>Aendrerit eu ipsum. Nunc eleifend nulla tortoridie vehi</p>
+                                    <p >Aendrerit eu ipsum. Nunc eleifend nulla tortoridie vehi</p>
                                     <button className='btn '>Read More</button>
-
                                 </div>
-                            </div>
-                        </div>
-                        <button class="carousel-control-prev" type="button" data-target="#carouselExampleCaptions" data-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-target="#carouselExampleCaptions" data-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Next</span>
-                        </button>
-                    </div>
+                        </Carousel.Item>
+                 </Carousel>
                 </section>
                 <div className="home-bottom">
                     <img src={process.env.PUBLIC_URL + "/extreme-sport-top-img.png"} alt="My-Pic" width="100%" />
@@ -350,52 +335,46 @@ export default class App extends Component {
                                             <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
                                             <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
                                         </ol>
-                                        <div class="carousel-inner">
-                                            <div class="carousel-item active">
-                                                <p>Sed ut perspicitis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiaeaque ipsa quaei ab illo inventore veritatiset quasi.</p>
-                                                <div className="col-lg-6 d-flex mt-5">
-                                                    <div className="col-4">
+                                        <Carousel>
+                                            <Carousel.Item>
+                                            <p>Sed ut perspicitis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiaeaque ipsa quaei ab illo inventore veritatiset quasi.</p>
+                                            <div className="col-lg-6 d-flex mt-5 col-10">
+                                                    <div className="col-sm-4">
                                                         <img src={process.env.PUBLIC_URL + "/team-member1.jpg"} alt="Mu-Pic" width="100%" />
                                                     </div>
-                                                    <div className="col-6 ml-4">
+                                                    <div className="col-sm-6 ml-4">
                                                         <h4>Smith Doe</h4>
                                                         <p>Instructor</p>
                                                     </div>
-                                                </div>
-                                            </div>
-                                            <div class="carousel-item">
-                                                <p>Sed ut perspicitis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiaeaque ipsa quaei ab illo inventore veritatiset quasi.</p>
-                                                <div className="col-lg-6 d-flex mt-5">
-                                                    <div className="col-4">
+                                                    </div>
+                                            </Carousel.Item>
+                                            <Carousel.Item>
+                                            <p>Sed ut perspicitis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiaeaque ipsa quaei ab illo inventore veritatiset quasi.</p>
+                                            <div className="col-lg-6 d-flex mt-5 col-10">
+                                                    <div className="col-sm-5">
                                                         <img src={process.env.PUBLIC_URL + "/team-member2.jpg"} alt="Mu-Pic" width="100%" />
                                                     </div>
-                                                    <div className="col-6 ml-4">
+                                                    <div className="col-sm-6 ml-4">
                                                         <h4>Jonathon</h4>
                                                         <p>CEO</p>
                                                     </div>
-                                                </div>
-                                            </div>
-                                            <div class="carousel-item">
-                                                <p>Sed ut perspicitis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiaeaque ipsa quaei ab illo inventore veritatiset quasi.</p>
-                                                <div className="col-lg-6 d-flex mt-5">
-                                                    <div className="col-4">
+                                                    </div>
+                                            </Carousel.Item>
+                                            <Carousel.Item>
+                                            <p>Sed ut perspicitis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiaeaque ipsa quaei ab illo inventore veritatiset quasi.</p>
+                                                <div className="col-lg-6 d-flex mt-5 col-10">
+                                                    <div className="col-sm-5">
                                                         <img src={process.env.PUBLIC_URL + "/testimonials-img.png"} alt="Mu-Pic" width="100%" />
                                                     </div>
-                                                    <div className="col-6 ml-4">
+                                                    <div className="col-sm-6 ml-4">
                                                         <h4>Jonathon Doe</h4>
                                                         <p>Founder</p>
                                                     </div>
                                                 </div>
-                                            </div>
-                                        </div>
-                                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                            <span class="sr-only">Previous</span>
-                                        </a>
-                                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                            <span class="sr-only">Next</span>
-                                        </a>
+                                            </Carousel.Item>
+                                        </Carousel>
+                                      
+                                       
                                     </div>
                                 </div>
                             </div>
